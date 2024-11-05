@@ -4,12 +4,7 @@
     --botao-azul: #677e84;
     --cor-de-fundo: #6a5628;
     --fonte-principal: 'Inter';
-    --quadrado:#6B8467; 
-    --quadrado-secundario:#846767; 
-    --quadrado-terceiro:#134f5c;
-    --quadrado-quarto:#20124d;
 }
-
 
 .titulo{ 
     text-align:right;
@@ -45,45 +40,6 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.box { 
-    height: 100vh;
-   display: grid;
-   grid-template-columns: 50% 10%;
-}
-
-.fanarts {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
- 
-}
-
-.estudante{
-    padding: 24px 0;
-}
-.estudante-imagem{
-    width: 120px;
-}
-
-.estudante-icone{
-    width: 24px;
-    padding: 4px 8px;
-}
-
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
-}
-
-.estudante-titulo{
-    text-align: center;
-    padding: 50px 0;
-}
-
-.estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-}
-
 
 
 
@@ -98,50 +54,6 @@ body {
     margin-left: 3em;
     margin-top: 1em;
 }
-
-.quadrado-secundario{
-    background-color: var(--quadrado);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    margin-bottom: 3em;
-    margin-left: 3em;
-    margin-top: 3em;
-    margin-right: 3em;
-}    
-
-.quadrado-terciario {
-    background-color: var(--quadrado-secundario);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    margin-bottom: 3em;
-    margin-left: 3em;
-    margin-top: 3em;
-    margin-right: 3em;
-}    
-
-.quadrado-quarto{
-    background-color: var(--quadrado-terceiro);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    margin-bottom: 3em;
-    margin-left: 3em;
-    margin-top: 3em;
-    margin-right: 3em;
-}    
-
-.quadrado-quinto{
-    background-color: var(--quadrado-quarto);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    margin-bottom: 3em;
-    margin-left: 3em;
-    margin-top: 3em;
-    margin-right: 3em;
-}    
 
 
 .botao_secundario {
@@ -184,6 +96,9 @@ body {
     margin-left: 12em;
 }
 
+.texto-pjo {
+ 
+}
 
 .descricao__texto {
     color: var(--cinza-secundario);
